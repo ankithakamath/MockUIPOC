@@ -1,0 +1,38 @@
+{
+"lastSigned": "data",
+"data":{
+"sections": [
+    {
+      "rows": [{
+        "Identifier": "NewAccountTableViewCell"
+        }]
+      },
+    {
+  "sectionTitle":"Investments",
+  "rows": [
+     {
+    "Identifier": "TotalTableViewCell",
+    "Total": "$321321"
+    },{
+    "Identifier": "DetailTableViewCell",
+    "name" : "Investing",
+    "amount": "$321321",
+    "accountNumber": "1234567"
+    }]
+  },
+  {
+  "sectionTitle":"Loans",
+  "rows": [{
+    "Identifier": "TotalTableViewCell",
+    "Total": "$32432"
+    },
+     {
+    "Identifier": "DetailTableViewCell",
+    "name" : "Loan",
+    "amount": "$32432",
+    "accountNumber": "321321"
+    }]
+  }]
+}
+  
+}
