@@ -135,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="-849" y="-1995"/>
         </scene>
-        <!--Home-->
+        <!--Good Morning-->
         <scene sceneID="MTc-7r-xEC">
             <objects>
                 <viewController id="hhk-Hi-xvD" customClass="HomeViewController" customModule="MockUIPOC" customModuleProvider="target" sceneMemberID="viewController">
@@ -218,7 +218,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open A new Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf1-Za-A1Y">
-                                                    <rect key="frame" x="84" y="24" width="192" height="24"/>
+                                                    <rect key="frame" x="84" y="24" width="192" height="31"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                     <color key="textColor" red="0.1027043008" green="0.46197494350000001" blue="0.34681700910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="highlightedColor" red="0.1027043008" green="0.46197494350000001" blue="0.34681700910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -231,6 +231,7 @@
                                                 <constraint firstItem="dWE-sl-1z2" firstAttribute="leading" secondItem="5ab-Md-xDQ" secondAttribute="leading" constant="24" id="nhm-sF-ORv"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bf1-Za-A1Y" secondAttribute="trailing" constant="20" symbolic="YES" id="txr-TF-8p0"/>
                                                 <constraint firstItem="bf1-Za-A1Y" firstAttribute="top" secondItem="5ab-Md-xDQ" secondAttribute="top" constant="24" id="vaG-hg-nWB"/>
+                                                <constraint firstItem="dWE-sl-1z2" firstAttribute="centerY" secondItem="bf1-Za-A1Y" secondAttribute="centerY" id="wX7-bw-4NT"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -245,13 +246,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWq-YH-CpZ">
-                                                    <rect key="frame" x="16" y="50" width="61.5" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                    <nil key="textColor"/>
+                                                    <rect key="frame" x="16" y="50" width="50.5" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$321321" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tba-F0-SIm">
-                                                    <rect key="frame" x="248.5" y="41.5" width="141.5" height="41"/>
+                                                    <rect key="frame" x="248.5" y="39.5" width="141.5" height="41"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -263,6 +264,7 @@
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TWq-YH-CpZ" secondAttribute="bottom" constant="24" id="a8a-Ex-2cC"/>
                                                 <constraint firstItem="TWq-YH-CpZ" firstAttribute="top" secondItem="7Jf-Pp-Yrz" secondAttribute="top" constant="50" id="jwy-DC-pJD"/>
                                                 <constraint firstItem="TWq-YH-CpZ" firstAttribute="centerY" secondItem="tba-F0-SIm" secondAttribute="centerY" id="lGI-6S-cjW"/>
+                                                <constraint firstItem="tba-F0-SIm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TWq-YH-CpZ" secondAttribute="trailing" constant="8" symbolic="YES" id="vaw-ZD-4JY"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -295,9 +297,9 @@
                             <constraint firstItem="R35-G7-3tQ" firstAttribute="leading" secondItem="M7u-oN-cuT" secondAttribute="leading" id="ZOv-cf-lpN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="E0j-tK-XSb">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="hMQ-hP-r05">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Iai-Ow-1r3">
+                    <navigationItem key="navigationItem" title="Good Morning" id="Awk-lo-mX9">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="uPf-XQ-LzC">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="avr-aF-siH">
                                 <rect key="frame" x="20" y="5" width="92" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -306,8 +308,8 @@
                                 </buttonConfiguration>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="cKQ-HD-anm">
-                            <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="3bq-Y8-HlC">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="KI3-Ok-MV1">
+                            <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="2y5-wX-2R7">
                                 <rect key="frame" x="302" y="5" width="92" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>

@@ -1,30 +1,37 @@
 import Foundation
 
 // MARK: - Welcome
-struct MockModel: Codable {
+struct MockModel: Codable
+{
     let lastSigned: String
     let data: DataClass
 }
 
 // MARK: - DataClass
-struct DataClass: Codable {
+struct DataClass: Codable
+{
     let sections: [Section]
 }
 
 // MARK: - Section
-struct Section: Codable {
+struct Section: Codable
+{
+    let sectionTitle: String
     let rows: [Row]
-    let sectionTitle: String?
 }
 
 // MARK: - Row
-struct Row: Codable {
+struct Row: Codable
+{
     let identifier: String
     let total, name, amount, accountNumber: String?
-
-    enum CodingKeys: String, CodingKey {
+    
+    enum CodingKeys: String, CodingKey
+    {
         case identifier = "Identifier"
         case total = "Total"
         case name, amount, accountNumber
     }
 }
+
+

@@ -3,34 +3,44 @@
 "data":{
 "sections": [
     {
-      "rows": [{
-        "Identifier": "NewAccountTableViewCell"
-        }]
-      },
-    {
   "sectionTitle":"Investments",
   "rows": [
      {
     "Identifier": "TotalTableViewCell",
-    "Total": "$321321"
+    "Total": "$444742"
     },{
     "Identifier": "DetailTableViewCell",
     "name" : "Investing",
     "amount": "$321321",
     "accountNumber": "1234567"
-    }]
+    },
+    {
+        "Identifier": "DetailTableViewCell",
+        "name" : "Savings",
+        "amount": "$123421",
+        "accountNumber": "4567182"
+    },
+   {
+       "Identifier": "NewAccountTableViewCell"
+   }]
   },
   {
   "sectionTitle":"Loans",
   "rows": [{
     "Identifier": "TotalTableViewCell",
-    "Total": "$32432"
+    "Total": "$43244"
     },
      {
     "Identifier": "DetailTableViewCell",
     "name" : "Loan",
     "amount": "$32432",
     "accountNumber": "321321"
+    },
+     {
+    "Identifier": "DetailTableViewCell",
+    "name" : "Loan",
+    "amount": "$11123",
+    "accountNumber": "763542"
     }]
   }]
 }

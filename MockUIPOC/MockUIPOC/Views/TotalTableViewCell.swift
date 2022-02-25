@@ -7,25 +7,12 @@
 
 import UIKit
 
-class TotalTableViewCell: UITableViewCell
+class TotalTableViewCell: UITableViewCell,ConfigureCellProtocol
 {
     
     func configureCell(rowData: Row)
     {
         totalAmountLabel.text = rowData.total
-    }
-
-    override func awakeFromNib()
-    {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool)
-    {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
     @IBOutlet weak var totalLabel: UILabel!
